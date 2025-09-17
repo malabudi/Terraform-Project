@@ -1,0 +1,14 @@
+{
+  "name": "Terraform Azure Dev Container",
+  "image": "terraform-azure", 
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "ms-azuretools.vscode-azureterraform"
+      ]
+    }
+  },
+  "remoteUser": "ubuntu"
+}
