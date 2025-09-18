@@ -9,7 +9,7 @@ services:
     volumes:
       - ./:/terraform  # Mount your Terraform project
     environment:
-      # Optional: Azure environment variables
+      # Azure environment variables
       ARM_CLIENT_ID: ${ARM_CLIENT_ID}
       ARM_CLIENT_SECRET: ${ARM_CLIENT_SECRET}
       ARM_SUBSCRIPTION_ID: ${ARM_SUBSCRIPTION_ID}
